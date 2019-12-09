@@ -1,0 +1,27 @@
+declaracao:
+    empresa:
+        nome: Empresa Fantasia Ltda.
+        CNPJ: 123456789-0
+        sede:
+            endereco: Rua Santa Cecília
+            complemento: Escritório 135
+            numero: 246
+            cidade: São Paulo
+            estado: SP
+    representante:
+        nome: Antônio Pessoa
+        RG: 98765432-1
+        cargo: CEO
+        domicilio:
+            endereco: Rua Arlandria
+            complemento: Apartamento 79
+            numero: 80
+            cidade: Mauá
+            estado: SP
+    dataAssinatura: 14:30:30, 01/01/2020
+    localAssinatura:
+        endereco: Rua Primeiro de Janeiro
+        complemento: -
+        numero: 20
+        cidade: São Paulo
+        estado: SP
