@@ -1,0 +1,33 @@
+declaracao:
+	tipo: dlc_aceitacao_termos_compromisso
+	nome: Declaração de Aceitação de Termos de Compromisso
+	parte:
+	    empresa:
+	        nome: Empresa Fantasia Ltda.
+	        CNPJ: 123456789-0
+	        sede:
+	            endereco: Rua Santa Cecília
+	            complemento: Escritório 135
+	            numero: 246
+	            bairro: Sé
+	            cidade: S�o Paulo
+	            estado: SP
+	    representante:
+	        nome: Antônio Pessoa
+	        RG: 98765432-1
+	        cargo: CEO
+	        domicilio:
+	            endereco: Rua Arlandria
+	            complemento: Apartamento 79
+	            numero: 80
+	            bairro: Centro
+	            cidade: Mauá
+	            estado: SP
+    dataAssinatura: 15/01/2020, 13:30:00
+    localAssinatura:
+        endereco: Rua Primeiro de Janeiro
+        complemento: -
+        numero: 20
+        bairro: Pinheiros
+        cidade: São Paulo
+        estado: SP

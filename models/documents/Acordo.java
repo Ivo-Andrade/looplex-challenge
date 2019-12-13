@@ -7,6 +7,9 @@ import models.entities.*;
 
 public class Acordo implements Documento {
 
+	String tipo;
+	String nome;
+
 	ArrayList<Parte> partes;
 
     Date dataAssinatura;
@@ -37,6 +40,18 @@ public class Acordo implements Documento {
 	public Local getLocal () {
 		
         return this.localAssinatura;
+		
+	}
+	
+	public String getNome () {
+		
+        return this.nome;
+		
+	}
+	
+	public String getTipo () {
+		
+        return this.tipo;
 		
 	}
 

@@ -8,6 +8,9 @@ import models.entities.*;
 
 public class Contrato implements Documento {
 
+	String tipo;
+	String nome;
+
     ArrayList<Parte> partes;
 
     ConfigContrato configContrato;
@@ -48,6 +51,18 @@ public class Contrato implements Documento {
 	public Local getLocal () {
 		
         return this.localAssinatura;
+		
+	}
+	
+	public String getNome () {
+		
+        return this.nome;
+		
+	}
+	
+	public String getTipo () {
+		
+        return this.tipo;
 		
 	}
 
